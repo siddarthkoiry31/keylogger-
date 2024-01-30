@@ -1,14 +1,12 @@
-# keylogger-
-Keyloggers are programs that capture your key strokes. They can be used to keep logs of everything you press on the keyboard but on the flip side it can be used for malicious purposes as well.
+# Project Name: Keylogger
 
-The keylogger that I've made is a basic keylogger. It captures your keystrokes and saves them in a file "keylogger.txt".
+## Project Description
+The project involves the development of a basic keylogger, a type of software that captures keystrokes. The keylogger records all the keys pressed on the keyboard and saves this data into a file named "keylogger.txt".
 
-It then sends the contents of the file(i.e. the keystrokes) to your email id.
+The program is designed to automatically send the contents of this file, which includes the recorded keystrokes, to a specified email address. This feature can be potentially expanded in the future to allow the keylogger to send the keystrokes at regular intervals.
 
-With some extra lines of code, it can also send the keystrokes at regular intervals. But that is a project for another time.
+## Applications
+While this keylogger can be used for legitimate purposes such as keeping logs of keyboard activity, it's important to note that it can also be misused for malicious purposes. Therefore, it's crucial to use such software responsibly and ethically.
 
-I have not made it executable so one has to explicitely call it.
-
-SYNTAX : python keylogger.py
-
-You will need pynput .
+## Future Scope
+The project could be extended to include a feature that sends updates at regular intervals, providing real-time monitoring of keystrokes. However, this enhancement is planned for a future iteration of the project.
